@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:fontFamily="sans-serif-condensed-medium"
-            android:text="Fitness Recipes"
+            android:text="New Title"
             android:textColor="#1E1717"
             android:textSize="24sp" />
 
