@@ -6,8 +6,10 @@ import androidx.cardview.widget.CardView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+    private TextView title;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,6 +18,9 @@ public class MainActivity extends AppCompatActivity {
 
         CardView bulkingCard = findViewById(R.id.card_view_bulking_recipes);
         CardView cuttingCard = findViewById(R.id.card_view_cutting_recipes);
+
+        TextView title = findViewById(R.id.text_view_appname);
+        title.setText("Main Menu");
 
 
         bulkingCard.setOnClickListener(new View.OnClickListener() {
